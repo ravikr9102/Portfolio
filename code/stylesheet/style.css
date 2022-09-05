@@ -188,20 +188,24 @@ body {
 
 .header {
   padding: 1.2rem 0;
+  background-color: #fff;
   position: absolute;
   position: fixed;
   width: 100%;
 }
 
 .header .brand {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: red;
-  border-bottom: 2px solid crimson;
 }
 
 .header li {
   margin-left: 2.3rem;
+}
+
+.header li a {
+  color: black;
 }
 
 .header li a:hover {
@@ -299,9 +303,6 @@ body {
   border-left: 1.1rem solid #fff;
   padding: 0.6rem;
   width: 80%;
-}
-
-.about-section .main-div img:hover {
   border-radius: 10%;
 }
 
@@ -496,11 +497,6 @@ body {
 .contact-section .contact-box:hover {
   background-color: #fff;
   place-items: center;
-  border-radius: 50%;
-  -webkit-transform: perspective(0.8rem) scaleZ(0.5) rotate(360deg);
-          transform: perspective(0.8rem) scaleZ(0.5) rotate(360deg);
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
 }
 
 .contact-section .contact-box:hover i {
